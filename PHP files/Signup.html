@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/login.css"> 
+  </head>
+
+
+<body>
+
+	<div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true" >
+		<div class="modal-dialog">
+		  <div class="loginmodal-container">
+			<h1>Sign Up</h1><br>
+			<form method="POST" action="test_signup.php"> 
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="password" placeholder="Password" required>
+				<input type="password" name="confirm_password" placeholder="Confirm Password" required>
+				<input type="submit" name="SignUp" class="login loginmodal-submit" value="Sign Up!">
+				<input type="submit" onclick="location='home_page.php';" name="Submit Form" class="login loginmodal-submit" value="Return to HomePage">
+			</form>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>
